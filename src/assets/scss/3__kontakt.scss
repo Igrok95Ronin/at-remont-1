@@ -1,0 +1,32 @@
+.kontakt {
+    background-image: url(../img/bg_blau2.jpg);
+    padding: $paddingSection;
+    background-position: center;
+    color: #fff;
+}
+.kontakt__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.kontakt__inner {
+}
+.kontakt__smallTxt {
+    font-size: 20px;
+}
+.kontakt__title {
+    @include title;
+    color: #fff;
+}
+.linkBtn {
+    color: #ffffff;
+    font-weight: 300!important;
+    background-color: #3299cc;
+    font-size: 18px;
+    padding: 8px 20px;
+    transition: .3s;
+    &:hover {
+        color: #fff;
+        background-color: #0687c7;
+    }
+}
