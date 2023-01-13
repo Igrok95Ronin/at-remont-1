@@ -1,0 +1,73 @@
+.ourWorks {
+    padding: $paddingSection
+}
+.ourWorks__box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.ourWorks__left, .ourWorks__right{
+    position: relative;
+}
+.ourWorks__title {
+    @include title();
+    margin-bottom: 20px;
+}
+.ourWorks__name {
+    padding-left: 20px;
+    margin-top: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.ourWorks__img{
+max-width: 100%;
+}
+
+.clip {
+    animation: clip 10s infinite alternate; /* Анимация */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0;
+    /* Прячем часть текста */
+    max-width: 100%; /* Ширина блока */
+    // color: white; /* Цвет текста */
+    // background: #7f4c3e; /* Цвет фона */
+    // padding: 10px; /* Поля вокруг текста */
+   }
+.clip2 {
+    animation: clip 10s infinite alternate; /* Анимация */
+    position: absolute; /* Абсолютное позиционирование */
+    // right: -128px;
+    /* Прячем часть текста */
+    max-width: 100%; /* Ширина блока */
+    // color: white; /* Цвет текста */
+    // background: #7f4c3e; /* Цвет фона */
+    // padding: 10px; /* Поля вокруг текста */
+   }
+.clip3 {
+    animation: clip 10s infinite alternate; /* Анимация */
+    position: absolute; /* Абсолютное позиционирование */
+    // right: -128px;
+    /* Прячем часть текста */
+    max-width: 100%; /* Ширина блока */
+    // color: white; /* Цвет текста */
+    // background: #7f4c3e; /* Цвет фона */
+    // padding: 10px; /* Поля вокруг текста */
+   }
+.clip4 {
+    animation: clip 10s infinite alternate; /* Анимация */
+    position: absolute; /* Абсолютное позиционирование */
+    // right: -128px;
+    /* Прячем часть текста */
+    max-width: 100%; /* Ширина блока */
+    // color: white; /* Цвет текста */
+    // background: #7f4c3e; /* Цвет фона */
+    // padding: 10px; /* Поля вокруг текста */
+   }
+/*    @keyframes clip {
+    from { clip: rect(auto, 0, auto, 0); }   
+    to { clip: rect(auto, 600px, auto, 0); }  
+   } */
+
+.clip, .clip2, .clip3, .clip4{
+    max-width: 100%;
+}

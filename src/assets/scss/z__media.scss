@@ -1,0 +1,8 @@
+@media(max-width: 566px) {
+    .ourWorks__box {
+        display: -ms-grid;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    } 
+}
