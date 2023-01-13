@@ -4,8 +4,8 @@ $site_data      = json_decode(file_get_contents('http://templates.jquery.link/ap
 $phone_name     = $site_data['phone_name'];
 $phone_href     = $site_data['phone_href'];
 
-$text           = str_replace('+', ' ', trim($_GET['t'] ?? 'Entrumpelung'));
-$city           = str_replace('+', ' ', trim($_GET['n'] ?? 'in der nahe'));
+$text           = str_replace('+', ' ', trim($_GET['t'] ?? 'Badgestaltung und Badsanierung'));
+$city           = str_replace('+', ' ', trim($_GET['n'] ?? 'Essen'));
 
 $title = $text . ' ' . $city;
 ?>
@@ -28,12 +28,32 @@ $title = $text . ' ' . $city;
 
 
     <!--Шапка сайта-->
-    <header class="header">
-        
-    </header>
+    <header class="header"></header>
     <!-- Основное содержимое страницы -->
     <main class="main">
-        <section class="">
+        <section class="bathroomDesign">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 container">
+                        <h1 class="bathroomDesign__title">Badgestaltung und Badsanierung in Essen</h1>
+                        <div class="bathroomDesign__box">
+                            <div class="bathroomDesign__left">
+                                <p class="bathroomDesign__txt">Längst sind Bäder ein Rückzugsort zum Kraft tanken und Entspannen. Mit uns finden Sie Ihren Partner für moderne Bäder. Gemeinsam besuchen wir Ausstellungen und finden die für Sie überzeugenden Produkte. Sei es bodenebene Duschen mit Rainshower Systemen, freistehende Badewannen oder moderne Dusch WCs. Wir bieten Ihnen ein umfassendes Paket mit fachgerechter Ausführung.</p>
+                                <ul>
+                                    <li class="bathroomDesign__li">Bodenebene Duschen</li>
+                                    <li class="bathroomDesign__li">Rainshower-Systeme</li>
+                                    <li class="bathroomDesign__li">Freistehende Badewannen</li>
+                                    <li class="bathroomDesign__li">Moderne Dusch WCs</li>
+                                    <li class="bathroomDesign__li">Barrierefreie Bäder und Sanitäranlagen</li>
+                                </ul>
+                            </div>
+                            <div class="bathroomDesign__right">
+                                <img class="bathroomDesign__img" src="./assets/img/kubischok_badsanierung-referenzen-1.jpg" alt="kubischok_badsanierung-referenzen" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <!--Нижний колонтитул страницы-->
