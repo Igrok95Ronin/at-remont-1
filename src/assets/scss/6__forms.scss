@@ -1,0 +1,38 @@
+.forms {
+    margin-top: 100px;
+    padding: $paddingSection;
+    background-image: url(../img/bg_blau22.jpg);
+    color: #fff;
+}
+.forms__wrapper {
+}
+.container-fluid {
+}
+.row {
+}
+.col-12 {
+}
+.container {
+}
+.forms__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+.forms__left {
+}
+.forms__title {
+    @include title;
+    color: #fff;
+}
+.forms__txt {
+    line-height: 1.6em;
+    margin-bottom: 20px;
+}
+.forms__name {
+    @include title;
+    color: #fff;
+}
+.forms__button {
+    @include btn;
+}

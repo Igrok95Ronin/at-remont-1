@@ -101,18 +101,74 @@ $title = $text . ' ' . $city;
                 <div class='row'>
                     <div class='col-12 container'>
                         <div class='gallery__box'>
-                            <img class="gallery__img" src="" alt="" >
+                            <img class="gallery__img" src="./assets/img/01.jpg" alt="" >
+                            <img class="gallery__img" src="./assets/img/02.jpg" alt="" >
+                            <img class="gallery__img" src="./assets/img/03.jpg" alt="" >
+                            <img class="gallery__img" src="./assets/img/04.jpg" alt="" >
+                            <img class="gallery__img" src="./assets/img/05.jpg" alt="" >
+                            <img class="gallery__img" src="./assets/img/06.jpg" alt="" >
+                            <img class="gallery__img" src="./assets/img/07.jpg" alt="" >
+                            <img class="gallery__img" src="./assets/img/08.jpg" alt="" >
+                            <img class="gallery__img" src="./assets/img/09.jpg" alt="" >
+                            <img class="gallery__img" src="./assets/img/010.jpg" alt="" >
+                            <img class="gallery__img" src="./assets/img/011.jpg" alt="" >
+                            <img class="gallery__img" src="./assets/img/012.jpg" alt="" >
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+        <section class='forms'>
+           <div class='forms__wrapper'>
+              <div class='container-fluid'>
+                 <div class='row'>
+                    <div class='col-12 container'>
+                       <div class='forms__box'>
+                        <div class="forms__left">
+                            <h2 class="forms__title">Kontaktiere uns</h2>
+                            <p class="forms__txt">Sie haben Fragen zu unseren Leistungen oder wünschen sich ein individuelles Angebot? Dann rufen Sie uns gerne direkt an oder nutzen Sie unser Kontaktformular und wir melden uns so schnell wie möglich bei Ihnen zurück.</p>
+                            <a class="linkBtn" href="#" ><span>Tel 111222333</span></a>
+                        </div>
+                        <form id='jq_form' class='mb-0 mt-3'>
+                              <h3 class='forms__name'>Kontaktformular</h3>
+                             <div class='my-0'>
+                                <input class='form-control' placeholder='Name' name='jq_name' type='text'>
+                                <div id='jq_name' style='font-weight:700;font-size:15px;color:red;padding-top:2px;display:none'>Dies ist ein Pflichtfeld.</div>
+                             </div>
+                             <div class='my-4'>
+                                <input class='form-control' placeholder='Telefonnummer' name='jq_phone' type='text'>
+                                <div id='jq_phone' style='font-weight:700;font-size:15px;color:red;padding-top:2px;display:none'>Dies ist ein Pflichtfeld.</div>
+                             </div>
+                             <div class='my-4'>
+                                <input class='form-control' placeholder='Straße' name='jq_street' type='text'>
+                             </div>
+                             <div class='my-4'>
+                                <input class='form-control' placeholder='Postleitzahl/Stadt' name='jq_city' type='text'>
+                             </div>
+                             <div class='my-4'>
+                                <input class='form-control' placeholder='E-mail' name='jq_email' type='text'>
+                             </div>
+                             <div class='my-4'>
+                                <textarea rows='3' class='form-control' name='jq_text' placeholder='Bericht'></textarea>
+                                <div id='jq_text' style='font-weight:700;font-size:15px;color:red;padding-top:2px;display:none'>Dies ist ein Pflichtfeld.</div>
+                             </div>
+                             <div>
+                                <input class='btn  text-uppercase fw-bold mb-0 px-3 py-2 forms__button' type='submit' id='jq_submit' value='Senden'>
+                             </div>
+                             <div id='jq_success' style='display:none'>Danke für deine Nachricht. Sie hat Gesendet.</div>
+                          </form>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
         </section>
     </main>
     <!--Нижний колонтитул страницы-->
     <footer class="footer">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 container">footer</div>
+                <div class="col-12 container">© Copyright 2023</div>
             </div>
         </div>
     </footer>
